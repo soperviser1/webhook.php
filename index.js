@@ -2,8 +2,7 @@ const http = require('http');
 const https = require('https');
 
 const VERIFY_TOKEN = 'nowcheck2026';
-const MAKE_WEBHOOK = 'https://hook.eu1.make.com/8v0d2tldx1lkx4y14674m21q2mpolr29';
-
+const MAKE_WEBHOOK = 'https://hook.eu1.make.com/1ybmwz07l7crssynul3gaf8kxktdkjs4';
 const server = http.createServer((req, res) => {
   // GET - Verification
   if (req.method === 'GET') {
