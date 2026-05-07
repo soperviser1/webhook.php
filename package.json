@@ -1,0 +1,12 @@
+{
+  "name": "nowcheck-webhook",
+  "version": "1.0.0",
+  "description": "WhatsApp Webhook Proxy for Now Check Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=14.x"
+  }
+}
